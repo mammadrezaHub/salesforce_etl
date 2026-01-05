@@ -1,7 +1,7 @@
 ## Salesforce ETL
 ### Background
 
-**Salesforce ETL** is a simple web app that helps you turn Salesforce files into clean, usable data without needing to write complex SQL and import to Amdaris Salesforce.
+**Salesforce ETL** is a simple web app that helps you turn Salesforce files into clean, usable data without needing to write complex SQL and import tof Salesforce.
 
 It guides you step by step through loading files, shaping the data, and preparing it for export in a clear and visual way.
 
@@ -56,4 +56,5 @@ chmod +x salesforce
 - Execute the app
 ```bash
 ./salesforce.command
+
 ```
