@@ -13,6 +13,7 @@ caption_config_save = "Save"
 caption_generate = "Generate"
 caption_alias = "🏷️ Alias for Source Files"
 caption_full_script = "Full Script"
+caption_user_guide = "📘 User Guide"
 
 hint_transformation = "*Create a new transformation by **typing a name** above then **press Enter**. The app will automatically create and manage the configuration for you.*"
 
@@ -32,6 +33,7 @@ shortcut_generate = "Ctrl+Enter"
 supported_ext = ["csv", "xlsx", "xls"]
 
 filename_instructions = "instructions.md"
+filename_user_guide = "user_guide.md"
 folder_configs = "configs"
 ext_config = ".json"
 

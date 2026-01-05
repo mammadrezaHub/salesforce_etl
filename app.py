@@ -13,6 +13,14 @@ utils.create_folder(c.folder_configs)
 st.set_page_config(page_title=c.caption_app, layout="wide")
 st.title(c.caption_app)
 
+with st.expander(c.caption_user_guide, expanded=False):
+    try:
+        with open(c.filename_user_guide, "r", encoding="utf-8") as f:
+            st.markdown(f.read())
+    except FileNotFoundError:
+        st.info("User guide not found.")
+
+
 ########## Step 1
 ui.header(c.caption_load)
 
